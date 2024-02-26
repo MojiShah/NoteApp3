@@ -1,0 +1,67 @@
+.note_input {
+    width: 100%;
+}
+
+.form-input {
+    display: block;
+    width: 40%;
+    padding: 0.375rem 0.75rem;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    margin: 50px auto 10px;
+    border-radius: 10px;
+}
+
+
+
+.actions{
+    width: 40%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.actions button{
+    padding: 5px;
+    margin-left: 10px;
+    background: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.actions button i{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.actions button:first-child{
+    color: green;
+}
+
+.actions button:last-child {
+    color: red;
+}
+
+.colorBox {
+    width: 40%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.note-list{
+    width: 85%;
+    margin: 20px auto;
+    background-color: crimson;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
